@@ -1,0 +1,10 @@
+import jugadoresPersonajes.*
+import elementos.*
+import armas.*
+
+test "floki ataca al castilo con la ballesta y 10 flechas" {
+	floki.cambiarArma(ballesta)
+	floki.encontrarElemento(castillo)
+	assert.equals(150 - ballesta.nivelPotencia, castillo.nivelDefensa())
+
+}
