@@ -50,6 +50,10 @@ object mario {
 		
 	}
 	
+	method valorRecolectado(){
+		return valorRecolectado
+	}
+	
 	method esFeliz() {
 		return valorRecolectado >= 50 or ultimoElementoEncontrado.altura >= 10 
 	}

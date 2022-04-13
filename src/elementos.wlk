@@ -34,7 +34,7 @@ object aurora {
 	}
 	
 	method recibirAtaque(unValor) {
-		estaViva = not.unValor >= 10
+		estaViva = not(unValor >= 10)
 	}
 	
 	method valor() {

@@ -1,0 +1,9 @@
+
+test "luisa personaje activo" {
+
+	luisa.jugadorActivo(mario)
+	uisa.personajeActivo().encontrarElemento(aurora)
+	luisa.personajeActivo().encontrarElemento(castillo)
+	
+	assert.equals(45, mario.valorRecolectado)
+}
